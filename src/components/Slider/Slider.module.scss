@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+    padding-top: var(--default-layout-header-height);
+}
+.slider {
+    background: url('../../assets/imgs/sliderFront.JPG') no-repeat center center / cover;
+    padding-top: 40%;
+}
+
+.content {
+    position: absolute;
+    content: '';
+    color: var(--white-color);
+    bottom: 3%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    h2 {
+        // font-family: 'Segoe UI', Arial, sans-serif;
+        font-weight: 400;
+        margin-bottom: 10px;
+        text-shadow: 0 0 1px var(--black-color);
+    }
+    p {
+        font-size: 1.5rem;
+        text-shadow: 0 0 1px var(--black-color);
+    }
+}

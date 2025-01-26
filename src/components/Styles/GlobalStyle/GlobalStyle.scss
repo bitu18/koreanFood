@@ -1,0 +1,51 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --text-color: #333;
+
+    --header-color: #3d3d3d;
+    // #3d3d3d
+    // #b0171f
+
+    --default-layout-header-height: 70px;
+    --default-layout-sort: 60px;
+    --default-width-search: 361px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
+}
+
+a[href] {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
