@@ -1,30 +1,17 @@
+$content-height: 176px;
+
 .wrapper {
     min-height: 1000px;
 }
-.about,
 .menu,
 .contact {
-    // padding-top: 50px;
     text-align: center;
-    padding: 50px 0 100px 0;
-}
-.about {
+    // padding: 50px 0 50px 0;
+    padding-bottom: 50px;
 }
 .menu {
     background-color: var(--black-color);
     color: var(--white-color);
-}
-.title {
-    font-size: 3rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-.des {
-    margin: 8px 0;
-    opacity: 0.6;
-    font-size: 1.5rem;
-    font-style: italic;
 }
 
 .text {
@@ -38,4 +25,19 @@
 }
 .img {
     width: 100%;
+}
+
+.detail {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    margin-top: -7px;
+    text-align: justify;
+    padding: 16px;
+    min-height: $content-height;
+}
+.name {
+    text-align: center;
+}
+.des-food {
+    margin-top: 8px;
 }
