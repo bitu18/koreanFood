@@ -1,0 +1,63 @@
+.wrapper {
+}
+
+.contact {
+    text-align: center;
+    // padding: 50px 0 50px 0;
+    padding-bottom: 50px;
+}
+
+.text {
+    width: 800px;
+    margin: 8px auto 0 auto;
+    // text-align: justify;
+}
+
+.each {
+    display: flex;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.btn {
+    padding: 4px 2px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        color: #ac0223;
+    }
+}
+
+.method-payment {
+    font-weight: 500;
+    padding: 20px;
+    color: #ac0223;
+}
+
+.social-icon {
+}
+// .link {
+//     font-size: 3rem;
+//     background-color: transparent;
+//     padding: 10px;
+// }
+
+.link {
+    font-size: 3rem;
+    background-color: transparent;
+    margin-right: 20px;
+
+    padding: 4px;
+    cursor: pointer; // Ensure this is present
+
+    &:hover {
+        color: #ac0223;
+    }
+}

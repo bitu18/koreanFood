@@ -3,6 +3,7 @@ import styles from './Content.module.scss';
 import images from '~/assets';
 import About from '../About';
 import HeaderContent from '../HeaderContent';
+import Contact from '../Contact';
 
 const cx = classNames.bind(styles);
 function Content() {
@@ -55,6 +56,11 @@ function Content() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col l-12">
+                    <Contact />
                 </div>
             </div>
         </div>

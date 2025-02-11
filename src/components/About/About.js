@@ -5,8 +5,8 @@ import HeaderContent from '../HeaderContent';
 const cx = classNames.bind(styles);
 function About() {
     return (
-        <div className={cx('wrapper')}>
-            <div id="about" className={cx('about')}>
+        <div id="about" className={cx('wrapper')}>
+            <div className={cx('about')}>
                 <div className="grid wide">
                     <div className="row">
                         <div className="col l-12">
