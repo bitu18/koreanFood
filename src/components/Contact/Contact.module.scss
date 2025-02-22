@@ -11,6 +11,19 @@
     width: 800px;
     margin: 8px auto 0 auto;
     // text-align: justify;
+
+    .btn {
+        padding: 4px 2px;
+        font-size: 1.6rem;
+        font-weight: 400;
+        background-color: transparent;
+        cursor: pointer;
+        color: var(--black-color);
+
+        &:hover {
+            color: #ac0223;
+        }
+    }
 }
 
 .each {
@@ -23,18 +36,6 @@
     margin-right: 3px;
 }
 
-.btn {
-    padding: 4px 2px;
-    font-size: 1.6rem;
-    font-weight: 400;
-    background-color: transparent;
-    cursor: pointer;
-
-    &:hover {
-        color: #ac0223;
-    }
-}
-
 .method-payment {
     font-weight: 500;
     padding: 20px;
@@ -42,6 +43,17 @@
 }
 
 .social-icon {
+    .link {
+        font-size: 3rem;
+        background-color: transparent;
+        margin-right: 20px;
+        padding: 4px;
+        color: var(--black-color);
+
+        &:hover {
+            color: #ac0223;
+        }
+    }
 }
 // .link {
 //     font-size: 3rem;
@@ -49,15 +61,15 @@
 //     padding: 10px;
 // }
 
-.link {
-    font-size: 3rem;
-    background-color: transparent;
-    margin-right: 20px;
-
-    padding: 4px;
-    cursor: pointer; // Ensure this is present
-
-    &:hover {
-        color: #ac0223;
+// Resposive
+// Tablet and mobile
+@media screen and (max-width: 63.9375em) {
+    .text {
+        width: 100%;
     }
+}
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+@media screen and (max-width: 46.1875em) {
 }

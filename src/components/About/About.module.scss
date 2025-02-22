@@ -12,3 +12,18 @@
     margin: 8px auto 0 auto;
     // text-align: justify;
 }
+
+// Resposive
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 46.1875em) {
+    .text {
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 0 16px;
+    }
+}

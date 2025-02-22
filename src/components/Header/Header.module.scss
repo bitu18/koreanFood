@@ -17,6 +17,9 @@
 .logo {
     height: 60px;
     text-align: left;
+    display: flex;
+    left: 6px;
+    position: relative;
 }
 
 .list {
@@ -51,4 +54,55 @@
     height: 2.5px;
     background-color: var(--white-color);
     border-radius: 2px;
+}
+
+// Responsive
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    // .list-item > a {
+    //     padding: 5px 10px;
+    // }
+}
+
+@media screen and (max-width: 46.1875em) {
+    .wrapper {
+        height: var(--default-layout-header-height--mobile);
+    }
+    .logo {
+        height: 38px;
+    }
+
+    .list {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        color: var(--white-color);
+        // width: 100%;
+        font-weight: 550;
+        font-size: 1.3rem;
+    }
+
+    .list-item {
+        position: relative;
+        + .list-item {
+            margin-left: 30px;
+        }
+
+        > a {
+            padding: 5px 5px;
+        }
+    }
+}
+
+/* Target Samsung Galaxy S8+ (portrait and landscape) */
+@media screen and (max-width: 360px) {
+    .list-item {
+        position: relative;
+        + .list-item {
+            margin-left: 15px;
+        }
+
+        > a {
+            padding: 5px 5px;
+        }
+    }
 }

@@ -9,7 +9,7 @@ function About() {
             <div className={cx('about')}>
                 <div className="grid wide">
                     <div className="row">
-                        <div className="col l-12">
+                        <div className="col l-12 m-12 c-12">
                             <HeaderContent title="the vibe" des="We love atmosphere" />
 
                             <p className={cx('text')}>

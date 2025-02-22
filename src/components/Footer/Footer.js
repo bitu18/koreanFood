@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className={cx('wrapper')}>
             <FontAwesomeIcon icon={faCopyright} className={cx('icon')} />
-            <h4 className={cx('text')}>Taste the Vibe</h4>
+            <h4 className={cx('text')}>Taste the Vibe 2025</h4>
         </div>
     );
 }

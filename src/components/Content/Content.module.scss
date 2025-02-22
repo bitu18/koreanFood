@@ -1,4 +1,5 @@
-$content-height: 176px;
+$content-height: 200px;
+$content-height--tablet: 224px;
 
 .wrapper {
     min-height: 1000px;
@@ -38,4 +39,30 @@ $content-height: 176px;
 }
 .des-food {
     margin-top: 8px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+// Responsive
+// Tablet && Mobile
+@media screen and (max-width: 63.9375em) {
+    .detail {
+        margin-bottom: 16px;
+    }
+}
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+// Ipad Pro (min-width: 1024px) and (max-width: 1366px)
+@media screen and (min-width: 64em) and (max-width: 85.375em) {
+    .detail {
+        min-height: $content-height--tablet;
+    }
+}
+
+// mobile
+@media screen and (max-width: 46.1875em) {
+    .menu {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

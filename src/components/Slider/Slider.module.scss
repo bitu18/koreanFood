@@ -1,10 +1,12 @@
 .wrapper {
     position: relative;
     padding-top: var(--default-layout-header-height);
+    min-width: 100%;
 }
 .slider {
     background: url('../../assets/imgs/sliderFront.JPG') no-repeat center center / cover;
     padding-top: 40%;
+    min-width: 100%;
 }
 
 .content {
@@ -24,5 +26,19 @@
     p {
         font-size: 1.5rem;
         text-shadow: 0 0 1px var(--black-color);
+    }
+}
+
+// Responsive
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    // .wrapper {
+    //     min-width: 1200px;
+    //     text-align: center;
+    // }
+}
+
+@media screen and (max-width: 46.1875em) {
+    .wrapper {
+        padding-top: var(--default-layout-header-height--mobile);
     }
 }
