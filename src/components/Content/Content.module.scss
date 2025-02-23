@@ -1,5 +1,5 @@
-$content-height: 200px;
-$content-height--tablet: 224px;
+$content-height: 230px;
+$content-height--tablet: 268px;
 
 .wrapper {
     min-height: 1000px;
@@ -20,7 +20,7 @@ $content-height--tablet: 224px;
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 .img {
     width: 100%;
@@ -39,7 +39,8 @@ $content-height--tablet: 224px;
 }
 .des-food {
     margin-top: 8px;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Rancho', serif;
+    font-size: 2.4rem;
 }
 
 // Responsive
