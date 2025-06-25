@@ -2,9 +2,22 @@ import classNames from 'classnames/bind';
 
 import styles from './Header.module.scss';
 import images from '~/assets';
+import { Link, useLocation } from 'react-router-dom';
+import Contact from '~/components/Contact';
+import { useEffect } from 'react';
 const cx = classNames.bind(styles);
 
 function Header() {
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+            const element = document.querySelector(location.hash);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location]);
     return (
         <div className={cx('wrapper')}>
             <div className="grid wide">
@@ -15,16 +28,13 @@ function Header() {
 
                     <ul className={cx('list')}>
                         <li className={cx('list-item')}>
-                            <a href="#about">About Us</a>
+                            <a href="/#about">About Us</a>
                         </li>
                         <li className={cx('list-item')}>
-                            <a href="#menu">view our menu</a>
+                            <Link to="/menu">view our menu</Link>
                         </li>
-                        {/* <li className={cx('list-item')}>
-                            <a href="#">Menu</a>
-                        </li> */}
                         <li className={cx('list-item')}>
-                            <a href="#contact">Contact</a>
+                            <a href="/#contact">Contact</a>
                         </li>
                     </ul>
                 </div>

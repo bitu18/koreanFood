@@ -1,10 +1,13 @@
 .wrapper {
+    background-color: #1c1c1c;
+    color: var(--white-color);
 }
 
 .contact {
     text-align: center;
     // padding: 50px 0 50px 0;
     padding-bottom: 50px;
+    // margin-top: 50px;
 }
 
 .text {
@@ -18,10 +21,10 @@
         font-weight: 400;
         background-color: transparent;
         cursor: pointer;
-        color: var(--black-color);
+        // color: var(--black-color);
 
         &:hover {
-            color: #ac0223;
+            color: #df0630;
         }
     }
 }
@@ -39,7 +42,7 @@
 .method-payment {
     font-weight: 500;
     padding: 20px;
-    color: #ac0223;
+    color: #df0630;
 }
 
 .social-icon {
@@ -48,7 +51,7 @@
         background-color: transparent;
         margin-right: 20px;
         padding: 4px;
-        color: var(--black-color);
+        // color: var(--black-color);
 
         &:hover {
             color: #ac0223;

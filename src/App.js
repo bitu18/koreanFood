@@ -1,20 +1,19 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+import DefaultLayout from './layout/DefaultLayout/DefaultLayout';
 
-import { GridCSS } from './components/Styles';
-import Header from './components/Header';
-import Slider from './components/Slider';
-import Content from './components/Content';
-import Footer from './components/Footer';
 function App() {
     return (
-        <GridCSS>
-            <div className={'wrapper'}>
-                <Header />
-                <Slider />
-                <Content />
-                <Footer />
-            </div>
-        </GridCSS>
+        <BrowserRouter>
+            <DefaultLayout>
+                <Routes>
+                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/menu" element={<Menu />}></Route>
+                </Routes>
+            </DefaultLayout>
+        </BrowserRouter>
     );
 }
 

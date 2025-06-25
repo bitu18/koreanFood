@@ -4,12 +4,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { GlobalStyle } from './components/Styles';
+import { GridCSS } from './components/Styles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <GlobalStyle>
-            <App />
+            <GridCSS>
+                <App />
+            </GridCSS>
         </GlobalStyle>
     </React.StrictMode>,
 );
