@@ -5,9 +5,8 @@
 
 .contact {
     text-align: center;
-    // padding: 50px 0 50px 0;
     padding-bottom: 50px;
-    // margin-top: 50px;
+    margin-top: -110px;
 }
 
 .text {
@@ -69,6 +68,7 @@
 @media screen and (max-width: 63.9375em) {
     .text {
         width: 100%;
+        font-size: 1.6rem;
     }
 }
 @media screen and (min-width: 46.25em) and (max-width: 63.9375em) {

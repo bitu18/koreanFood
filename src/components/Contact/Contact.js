@@ -28,6 +28,9 @@ function Contact() {
                                     </a>
                                 </p>
                                 <p>
+                                    <span className={cx('bold')}>Open: </span>Tuesday to Saturday - 2:00pm - Midnight
+                                </p>
+                                <p>
                                     <span className={cx('bold')}>Address:</span>
                                     <a
                                         href="https://www.google.com/maps?q=833+Portage+Trail,+Cuyahoga+Falls,+OH+44221"

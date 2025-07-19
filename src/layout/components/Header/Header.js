@@ -1,9 +1,7 @@
 import classNames from 'classnames/bind';
-
 import styles from './Header.module.scss';
 import images from '~/assets';
 import { Link, useLocation } from 'react-router-dom';
-import Contact from '~/components/Contact';
 import { useEffect } from 'react';
 const cx = classNames.bind(styles);
 
